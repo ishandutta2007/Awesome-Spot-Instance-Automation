@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0% { opacity: 0.3; }
+      50% { opacity: 0.8; }
+      100% { opacity: 0.3; }
+    }
+    @keyframes floatNode {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+    .glowing-circle { animation: pulseGlow 3s infinite ease-in-out; }
+    .floating-1 { animation: floatNode 4s infinite ease-in-out; }
+    .floating-2 { animation: floatNode 5s infinite ease-in-out 1s; }
+  </style>
+
+  <rect width="1200" height="400" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="400" fill="url(#grid)" rx="16" />
+
+  <circle cx="200" cy="100" r="180" fill="url(#glowGrad)" class="glowing-circle" />
+  <circle cx="1000" cy="300" r="220" fill="url(#glowGrad)" class="glowing-circle" />
+
+  <g class="floating-1">
+    <rect x="900" y="70" width="220" height="75" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.7"/>
+    <text x="920" y="102" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Spot Cost Savings</text>
+    <text x="920" y="130" fill="#10b981" font-family="system-ui, sans-serif" font-size="24" font-weight="800">⚡ up to -90%</text>
+  </g>
+
+  <g class="floating-2">
+    <rect x="900" y="240" width="220" height="75" rx="12" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.7"/>
+    <text x="920" y="272" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14" font-weight="600">K8s Node Provisioning</text>
+    <text x="920" y="300" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="22" font-weight="800">🚀 Karpenter / ML</text>
+  </g>
+
+  <text x="80" y="150" fill="url(#textGrad)" font-family="system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="-1">Awesome Spot Instance</text>
+  <text x="80" y="215" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="-1">Automation ⚡</text>
+
+  <text x="80" y="275" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="20" font-weight="500">
+    Curated SaaS Platforms, Karpenter Orchestrators &amp; FinOps Open-Source Ecosystem
+  </text>
+
+  <g transform="translate(80, 310)">
+    <rect x="0" y="0" width="130" height="32" rx="16" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1"/>
+    <text x="65" y="21" fill="#34d399" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Kubernetes</text>
+
+    <rect x="145" y="0" width="130" height="32" rx="16" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+    <text x="210" y="21" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Cloud FinOps</text>
+
+    <rect x="290" y="0" width="150" height="32" rx="16" fill="#8b5cf6" fill-opacity="0.15" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="365" y="21" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Spot Preemption</text>
+  </g>
+</svg>
