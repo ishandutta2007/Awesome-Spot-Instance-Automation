@@ -49,43 +49,43 @@ These tools enable engineering teams, DevOps, and cloud financial managers (FinO
 
 *Sorted by Star Count (Descending)*
 
-- 🛠️ **[Infracost](https://github.com/infracost/infracost)** [<img src="https://img.shields.io/github/stars/infracost/infracost?style=social&color=white" alt="GitHub stars"/>](https://github.com/infracost/infracost/stargazers)  
+- 🛠️ **[Infracost](https://github.com/infracost/infracost)** [<img src="https://img.shields.io/github/stars/infracost/infracost?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/infracost/infracost/stargazers)  
   Cloud cost estimates for Terraform, Pulumi, and IaC pull requests before deploying spot or on-demand infrastructure.
 
-- ⚡ **[KEDA](https://github.com/kedacore/keda)** [<img src="https://img.shields.io/github/stars/kedacore/keda?style=social&color=white" alt="GitHub stars"/>](https://github.com/kedacore/keda/stargazers)  
+- ⚡ **[KEDA](https://github.com/kedacore/keda)** [<img src="https://img.shields.io/github/stars/kedacore/keda?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/kedacore/keda/stargazers)  
   Event-driven Kubernetes autoscaling component. Scales containers from zero to burst capacity seamlessly alongside Karpenter and Spot instances.
 
-- 📈 **[Kubernetes Cluster Autoscaler](https://github.com/kubernetes/autoscaler)** [<img src="https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white" alt="GitHub stars"/>](https://github.com/kubernetes/autoscaler/stargazers)  
+- 📈 **[Kubernetes Cluster Autoscaler](https://github.com/kubernetes/autoscaler)** [<img src="https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/kubernetes/autoscaler/stargazers)  
   Official Kubernetes autoscaler for scaling node groups up and down across AWS, GCP, and Azure with mixed-instance spot group policies.
 
-- 🚀 **[Karpenter AWS Provider](https://github.com/aws/karpenter-provider-aws)** [<img src="https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white" alt="GitHub stars"/>](https://github.com/aws/karpenter-provider-aws/stargazers)  
+- 🚀 **[Karpenter AWS Provider](https://github.com/aws/karpenter-provider-aws)** [<img src="https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/aws/karpenter-provider-aws/stargazers)  
   Next-generation, high-speed Kubernetes node provisioner. Dynamically launches right-sized EC2 Spot instances, handles consolidation, and optimizes fallback.
 
-- 💰 **[OpenCost](https://github.com/opencost/opencost)** [<img src="https://img.shields.io/github/stars/opencost/opencost?style=social&color=white" alt="GitHub stars"/>](https://github.com/opencost/opencost/stargazers)  
+- 💰 **[OpenCost](https://github.com/opencost/opencost)** [<img src="https://img.shields.io/github/stars/opencost/opencost?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/opencost/opencost/stargazers)  
   CNCF Sandbox project providing real-time Kubernetes workload cost monitoring, allocation, and Spot vs On-Demand savings tracking.
 
-- 🧹 **[Descheduler](https://github.com/kubernetes-sigs/descheduler)** [<img src="https://img.shields.io/github/stars/kubernetes-sigs/descheduler?style=social&color=white" alt="GitHub stars"/>](https://github.com/kubernetes-sigs/descheduler/stargazers)  
+- 🧹 **[Descheduler](https://github.com/kubernetes-sigs/descheduler)** [<img src="https://img.shields.io/github/stars/kubernetes-sigs/descheduler?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/kubernetes-sigs/descheduler/stargazers)  
   Rebalances and evicts Kubernetes pods to consolidate workloads onto cheaper spot capacity or newly launched right-sized nodes.
 
-- 🤖 **[Robusta](https://github.com/robusta-dev/robusta)** [<img src="https://img.shields.io/github/stars/robusta-dev/robusta?style=social&color=white" alt="GitHub stars"/>](https://github.com/robusta-dev/robusta/stargazers)  
+- 🤖 **[Robusta](https://github.com/robusta-dev/robusta)** [<img src="https://img.shields.io/github/stars/robusta-dev/robusta?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/robusta-dev/robusta/stargazers)  
   Automation platform for Kubernetes monitoring, Prometheus alert enrichment, and automated spot node termination incident response.
 
-- 💡 **[AutoSpotting](https://github.com/LeanerCloud/AutoSpotting)** [<img src="https://img.shields.io/github/stars/LeanerCloud/AutoSpotting?style=social&color=white" alt="GitHub stars"/>](https://github.com/LeanerCloud/AutoSpotting/stargazers)  
+- 💡 **[AutoSpotting](https://github.com/LeanerCloud/AutoSpotting)** [<img src="https://img.shields.io/github/stars/LeanerCloud/AutoSpotting?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/LeanerCloud/AutoSpotting/stargazers)  
   Replaces on-demand instances in AWS Auto Scaling groups with equivalent Spot instances dynamically, with zero config changes and fallback handling.
 
-- 🏗️ **[Crane](https://github.com/gocrane/crane)** [<img src="https://img.shields.io/github/stars/gocrane/crane?style=social&color=white" alt="GitHub stars"/>](https://github.com/gocrane/crane/stargazers)  
+- 🏗️ **[Crane](https://github.com/gocrane/crane)** [<img src="https://img.shields.io/github/stars/gocrane/crane?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/gocrane/crane/stargazers)  
   FinOps platform for Cloud Resource Analytics and Economics in Kubernetes, featuring recommendation engines and spot capacity scheduling.
 
-- 🛡️ **[AWS Node Termination Handler](https://github.com/aws/aws-node-termination-handler)** [<img src="https://img.shields.io/github/stars/aws/aws-node-termination-handler?style=social&color=white" alt="GitHub stars"/>](https://github.com/aws/aws-node-termination-handler/stargazers)  
+- 🛡️ **[AWS Node Termination Handler](https://github.com/aws/aws-node-termination-handler)** [<img src="https://img.shields.io/github/stars/aws/aws-node-termination-handler?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/aws/aws-node-termination-handler/stargazers)  
   Gracefully handles EC2 Spot interruption notices, rebalance recommendations, and scheduled maintenance events inside Kubernetes clusters.
 
-- 📊 **[kubectl-cost](https://github.com/kubecost/kubectl-cost)** [<img src="https://img.shields.io/github/stars/kubecost/kubectl-cost?style=social&color=white" alt="GitHub stars"/>](https://github.com/kubecost/kubectl-cost/stargazers)  
+- 📊 **[kubectl-cost](https://github.com/kubecost/kubectl-cost)** [<img src="https://img.shields.io/github/stars/kubecost/kubectl-cost?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/kubecost/kubectl-cost/stargazers)  
   CLI plugin to inspect real-time Kubernetes cluster cost allocation, pod compute spending, and spot instance efficiency directly from terminal.
 
-- ☁️ **[Karpenter GCP Provider](https://github.com/cloudpilot-ai/karpenter-provider-gcp)** [<img src="https://img.shields.io/github/stars/cloudpilot-ai/karpenter-provider-gcp?style=social&color=white" alt="GitHub stars"/>](https://github.com/cloudpilot-ai/karpenter-provider-gcp/stargazers)  
+- ☁️ **[Karpenter GCP Provider](https://github.com/cloudpilot-ai/karpenter-provider-gcp)** [<img src="https://img.shields.io/github/stars/cloudpilot-ai/karpenter-provider-gcp?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/cloudpilot-ai/karpenter-provider-gcp/stargazers)  
   Community provider bringing Karpenter-style high-speed provisioning and Preemptible VM automation to Google Cloud Platform (GCP).
 
-- 📦 **[Instance Manager](https://github.com/keikoproj/instance-manager)** [<img src="https://img.shields.io/github/stars/keikoproj/instance-manager?style=social&color=white" alt="GitHub stars"/>](https://github.com/keikoproj/instance-manager/stargazers)  
+- 📦 **[Instance Manager](https://github.com/keikoproj/instance-manager)** [<img src="https://img.shields.io/github/stars/keikoproj/instance-manager?style=social&color=white" alt="GitHub_Stars"/>](https://github.com/keikoproj/instance-manager/stargazers)  
   Kubernetes controller for creating, managing, and lifecycle-monitoring worker node instance groups across cloud providers.
 
 ---
