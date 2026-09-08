@@ -42,59 +42,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Spot by NetApp (Ocean)](https://spot.io/)**  
-
-  Specialized platform for automating and optimizing workloads on spot instances across clouds, with intelligent scaling, interruption handling, and SLA-oriented features.
-
-
-
-- **[Cast AI](https://cast.ai/)**  
-
-  Kubernetes cost-optimization platform that automates node provisioning, bin-packing, rightsizing, and advanced Spot management (often layered on Karpenter).
-
-
-
-- **[StormForge](https://www.stormforge.io/)**  
-
-  Continuous workload optimization platform that tunes resource requests and works alongside autoscalers and spot strategies to improve efficiency.
-
-
-
-- **[Zesty](https://zesty.co/)**  
-
-  Cloud cost optimization focused on automated commitment and capacity management, including storage and compute efficiency.
-
-
-
-- **[PerfectScale, ScaleOps](https://www.perfectscale.io/)**  
-
-  Autonomous Kubernetes optimization platforms that continuously adjust pod resources and improve cluster efficiency, complementing spot automation.
-
-
-
-- **[nOps](https://www.nops.io/)**  
-
-  Cloud cost management and automation platform with strong support for spot strategies and Kubernetes optimization.
-
-
-
-- **[Karpenter Enterprise / commercial Karpenter offerings](https://karpenter.sh/)**  
-
-  Enterprise-supported distributions and managed services built on or extending the open-source Karpenter project.
-
-
-
-- **[CloudPilot AI and related optimizers](https://cast.ai/)**  
-
-  Additional AI-driven platforms that automate instance selection, spot usage, and cluster cost reduction.
-
-
-
-- **[Other cloud cost & spot platforms](https://spot.io/)**  
-
-  Solutions from cloud providers and FinOps vendors that include spot automation, interruption handling, and commitment optimization.
+| Product | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Spot by NetApp (Ocean)](https://spot.io/)** | Automated Kubernetes & Spot instance workload management, scaling, and interruption handling. | Starts at 15–20% of net savings generated (or ~\$0.001/vCPU-hr on AWS Marketplace). | 14-day free trial with full platform access. |
+| **[CAST AI](https://cast.ai/)** | Kubernetes cost optimization, automated node provisioning, rightsizing, and Spot management. | Starts at \$0.0069 per managed CPU/hr (~\$5/CPU/month) or \$200/mo minimum tier. | Free forever Read-Only Cost Monitoring plan (unlimited nodes & clusters). |
+| **[StormForge](https://www.stormforge.io/)** | Continuous ML-driven Kubernetes workload optimization and resource rightsizing. | Starts at \$0.0041 per CPU/hr (~\$3/pod/month). | 30-day free trial (up to 1 cluster with full optimization features). |
+| **[Zesty](https://zesty.co/)** | Automated cloud compute and commitment management (storage & Spot instance optimization). | Starts at 25% of net cloud cost savings achieved (success-based billing). | Free Cloud Savings Analysis & ROI evaluation report. |
+| **[PerfectScale](https://www.perfectscale.io/)** | Autonomous Kubernetes capacity optimization and pod resource rightsizing platform. | Starts at \$0.005 per vCPU-hr for paid Advanced/Expert tiers. | Free forever Community Edition (up to 300,000 vCPU-hours/month) & 30-day trial for Expert features. |
+| **[ScaleOps](https://scaleops.io/)** | Autonomous Kubernetes cloud cost optimization, pod rightsizing, and dynamic node scaling. | Starts at \$5.00 per vCPU/month (or ~\$0.0069/vCPU-hr). | 7-day free trial with full automated rightsizing features. |
+| **[nOps](https://www.nops.io/)** | Automated FinOps platform specializing in AWS Spot instance automation and commitment management. | Starts at \$199/month for Core platform (or 15% of net Spot savings). | Free Tier (basic visibility & reporting) + 14-day free trial for full automation. |
+| **[CloudPilot AI](https://cloudpilot.ai/)** | AI-driven Kubernetes autoscaling, Spot instance selection, and node rightsizing platform. | Starts at \$0.003 per CPU core-hour for Standard plan. | Free forever Community Edition (open-source engine with auto node sizing) & 30-day trial for Standard features. |
 
 
 
